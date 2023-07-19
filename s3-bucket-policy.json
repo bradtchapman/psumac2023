@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::328271117716:user/itslog-s3-writeonly"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::itslog-blammo-002/*"
+        }
+    ]
+}
