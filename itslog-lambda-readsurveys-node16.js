@@ -5,7 +5,7 @@
 // Event type: s3:ObjectCreated:*
 // Prefix: itslog/surveys/
 
-var snsTopicARN = "arn:aws:sns:us-west-2:095367119721:nbcu-sysdiagnose-s3-upload";
+var snsTopicARN = "arn:aws:sns:us-west-2:123456789012:sns-topic-name";
 var util = require('util')
 var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
