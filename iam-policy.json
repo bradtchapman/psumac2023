@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Action": "s3:PutObject",
-      "Resource": "arn:aws:s3:::itslog-blammo-002/itslog/*"
+      "Resource": "arn:aws:s3:::name-of-your-s3-bucket/itslog/*"
     }
   ]
 }
