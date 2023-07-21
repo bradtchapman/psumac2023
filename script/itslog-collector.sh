@@ -14,6 +14,7 @@ initScriptParameters() {
 	# $1 $2 $3 ARE NOT USED (for compatibility with Jamf)
 	# NOTE: $4 and $5 expect a base-64 encoded string
 	# $6 must be in the format bucket@region
+ 	# $7 is optional and will be changed to "NA" if empty
 	
 	aws_ak=$(echo "$4" | base64 -D)		# access key
 	aws_sk=$(echo "$5" | base64 -D)		# secret key
