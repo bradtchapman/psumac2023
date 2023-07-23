@@ -22,7 +22,7 @@
 - Confirm email
 
 ## S3 Bucket
-Search for S3
+Search for S3.  
 Confirm region is the same as your SNS
 
 ### Create bucket
